@@ -7,7 +7,8 @@
     {{#if devoured}}
     <li>
         <p>Burger Name: {{this.burger_name}}
-        </p><button type="submit" button_id={{this.id}} class="update-button" value="0">Regurgitate!</button>
+        </p>
+        <hr><button type="submit" button_id={{this.id}} class="update-button" value="0">Regurgitate!</button>
         <button type="submit" button_id={{this.id}} class="delete-button">Delete</button>
     </li>
     {{/if}}
@@ -21,7 +22,8 @@
     {{#unless devoured}}
     <li>
         <p>Burger Name: {{this.burger_name}}
-        </p><button type="submit" button_id={{this.id}} class="update-button" value="1">Devour Now!</button>
+        </p>
+        <hr><button type="submit" button_id={{this.id}} class="update-button" value="1">Devour Now!</button>
         <button type="submit" button_id={{this.id}} class="delete-button">Delete</button>
     </li>
     {{/unless}}

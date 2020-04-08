@@ -1,7 +1,15 @@
+body{
+
+  margin: 0px 50px;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: gold;
+  border: solid red thin;
+  width: 200px;
+  align-content: center;
 }
 
 .label {
@@ -18,7 +26,8 @@ li {
   margin-bottom: 5px;
 }
 
-.update-button{
+.update-button, .delete-button{
 
   background-color: white;
+  border: solid black thin;
 }
